@@ -1,0 +1,23 @@
+# Dependencies for: Tesla Autopilot Clone - Object Detection (KITTI + YOLOv8)
+#
+# NOTE: On Kaggle almost everything is pre-installed; the notebook installs only
+# what is missing (usually just `ultralytics`). This file is for local/other setups.
+# Versions are lower bounds on purpose (no old pins). For a GPU build of PyTorch,
+# install torch/torchvision first from https://pytorch.org/get-started/locally/
+
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.6
+seaborn>=0.12
+opencv-python>=4.7
+Pillow>=9.4
+PyYAML>=6.0
+tqdm>=4.64
+jinja2>=3.0          # needed for pandas Styler (per-class table colouring)
+
+# Only needed to run the notebook outside Kaggle:
+jupyterlab>=4.0
+ipykernel>=6.0

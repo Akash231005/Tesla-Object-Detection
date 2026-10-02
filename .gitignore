@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.venv/
+
+# Dataset
+lfw/
+*.tgz
+*.zip
+
+# Trained models
+*.pkl
+*.h5
+*.keras
+
+# Google Colab
+/content/
+
+# OS files
+.DS_Store
+Thumbs.db
